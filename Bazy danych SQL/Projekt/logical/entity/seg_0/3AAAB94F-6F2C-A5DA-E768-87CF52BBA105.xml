@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3AAAB94F-6F2C-A5DA-E768-87CF52BBA105" name="Produkt">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:24:45 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Produktu" id="C8418035-45FC-A5EA-BD19-337609C92E94">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:25:17 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_produktu" id="902DA298-B3CF-156A-DF6E-3E6459FDC5B8">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:24:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marka_produktu" id="F33E6166-2351-307B-470A-5281FB59C314">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:20:10 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ilość_produktu" id="F70228D0-3AD4-2292-A454-11559866D7D5">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:25:58 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_produktu" id="CE51F24F-726A-ACEE-AD25-CDFA5E5DA52B">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:26:46 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Dostawcy" id="0C4E614A-2375-80ED-3BA0-B559F39B4A98">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 12:59:06 UTC</createdTime>
+<generatorID>91E9F90D-0896-AAB7-A71B-03CD9F60C0E4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<referedAttribute>DC74DAAB-ACDD-E333-7AB4-3E535E690C02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9CE72EF-3023-3D86-23CB-C49FD9893F95" name="ID_Towaru_PK">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:28:22 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C8418035-45FC-A5EA-BD19-337609C92E94</newElementsIDs>
+<usedAttributes>
+<attributeRef>C8418035-45FC-A5EA-BD19-337609C92E94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

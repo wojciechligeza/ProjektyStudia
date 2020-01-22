@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Produky_PozycjaZ" directorySegmentName="seg_0" id="5910EC13-6688-7B79-919F-942ABA437980">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:30:00 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<sourcePk>A9CE72EF-3023-3D86-23CB-C49FD9893F95</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma</nameOnSource>
+<nameOnTarget>należy do</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3AAAB94F-6F2C-A5DA-E768-87CF52BBA105</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBEBFA6C-1ED1-64BC-0029-2207DBBE5141</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

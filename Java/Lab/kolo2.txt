@@ -1,0 +1,13 @@
+1. Proszê napisaæ program wypisuj¹cy 
+na konsolê przypadkow¹ literkê wchodz¹c¹ 
+w sk³ad s³owa zapisanego w zmiennej s 
+typu String.
+
+2. Proszê napisaæ program, który w podanym
+przez u¿ytkownika zdaniu wpisuje przed 
+wszystkimi s³owami sk³adaj¹cymi siê z mniej
+ni¿ trzech liter s³owo "nie".
+Przyk³ad:
+s1 = "Bolek ma kota"
+s2 = "Bolek nie ma kota"
+

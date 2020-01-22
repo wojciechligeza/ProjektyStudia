@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23D015E2-932B-3D2A-057F-B7241FB5FC80" name="Produkt">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>3AAAB94F-6F2C-A5DA-E768-87CF52BBA105</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produktu" id="A88656AE-010A-6157-6FAB-CA547CF21C95">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>C8418035-45FC-A5EA-BD19-337609C92E94</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_produktu" id="6F6444AB-407B-D2F4-6FD1-9F033DA29DC9">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>902DA298-B3CF-156A-DF6E-3E6459FDC5B8</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilość_produktu" id="6069911D-297E-8B80-A0DC-65E00B8C98E1">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>F70228D0-3AD4-2292-A454-11559866D7D5</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_produktu" id="A97AF25F-5B60-B212-8D95-66D7FB067A56">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>CE51F24F-726A-ACEE-AD25-CDFA5E5DA52B</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dostawca_ID_Dostawcy" id="B97C5A27-07D2-F745-7B5F-ACCD7B12863B">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>0C4E614A-2375-80ED-3BA0-B559F39B4A98</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C7F6860-9B36-AE96-CAC9-D095108F75ED" referredColumn="3DF5FF37-4052-527D-0D66-FF5301F5BB95"/>
+</associations>
+</Column>
+<Column name="Marka_produktu" id="F84FED7B-3DD2-F4CF-EB13-F5FE36BE57EA">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:23:02 UTC</createdTime>
+<generatorID>F33E6166-2351-307B-470A-5281FB59C314</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA832738-6F69-289D-EF21-B17886D80DBC" name="Produkt_PK">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>A9CE72EF-3023-3D86-23CB-C49FD9893F95</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A88656AE-010A-6157-6FAB-CA547CF21C95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DC4CAC4-765B-5735-3D19-E0D898689C02" name="Produkt_Dostawca_FK">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>91E9F90D-0896-AAB7-A71B-03CD9F60C0E4</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97C5A27-07D2-F745-7B5F-ACCD7B12863B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

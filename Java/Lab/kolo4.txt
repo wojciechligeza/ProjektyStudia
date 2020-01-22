@@ -1,0 +1,8 @@
+1. Proszê napisaæ program, który generuje 
+10-literowy ci¹g znaków sk³adaj¹cy siê 
+z przypadkowych liter alfabetu 
+z zakresu 'c' do 'm'.
+
+2. Proszê napisaæ program, który oblicza 
+liczbê wyst¹pieñ s³owa „Java” w zdaniu
+podanym w zmiennej s typu String.

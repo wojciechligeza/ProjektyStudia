@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamowienie_PozycjaZ" directorySegmentName="seg_0" id="2662C4DB-93C8-15EB-EC33-B2152D8BA17D">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:22:42 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<sourcePk>F4DFBC09-1BBA-7745-F039-3161E28C5C16</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>posiada</nameOnSource>
+<nameOnTarget>należy do</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7EE21B9-5FF8-5CFF-8D0D-E01A311FE330</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBEBFA6C-1ED1-64BC-0029-2207DBBE5141</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

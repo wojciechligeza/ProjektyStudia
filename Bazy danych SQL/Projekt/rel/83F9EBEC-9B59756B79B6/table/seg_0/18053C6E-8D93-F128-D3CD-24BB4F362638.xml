@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18053C6E-8D93-F128-D3CD-24BB4F362638" name="Zamowienia">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>D7EE21B9-5FF8-5CFF-8D0D-E01A311FE330</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zamowienia" id="803D583A-0A29-5650-44EF-FB1BC4CD329D">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>AFE5CF22-364F-9350-1810-617475417520</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zamówienia" id="BC9A68A1-B29F-FAC8-D6FB-E10EE2F76E7F">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>83D514A2-2DB8-AD40-5EB1-52E9C31BDF52</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klient_ID_Klienta" id="11ECCD64-7468-0211-EEA9-49DEB10F8A89">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>5E34BBAE-44E0-75A5-00B9-4092D8D75A99</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E007F67F-7B2F-1816-739A-5A51AFDC3AAA" referredColumn="CAEE0FC2-056F-81B3-0CF5-74D27A036367"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77141DE7-91E7-3CFB-1BC5-54AA6DD02830" name="Zamowienia_PK">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>F4DFBC09-1BBA-7745-F039-3161E28C5C16</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803D583A-0A29-5650-44EF-FB1BC4CD329D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D860CBF7-2018-D0BC-E2BC-6B95C75DB36C" name="Zamowienia_Klient_FK">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>7410A213-7E82-680D-4C8D-9A2D86A4F008</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11ECCD64-7468-0211-EEA9-49DEB10F8A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

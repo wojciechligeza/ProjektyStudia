@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6DBC73D-1232-EB04-AC6F-45531ADC6C9B" name="Klient">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>B51E6982-74A7-D573-B84C-174EAEB51BC2</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Klienta" id="CAEE0FC2-056F-81B3-0CF5-74D27A036367">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>252115EA-47CA-953D-8DD7-3C0343DEC4A2</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie_klienta" id="DACBB019-0672-0EDD-621B-9FDD856B5916">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>85529B1F-3755-B802-C437-A14BA35020C2</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko_klienta" id="0101E344-E1BC-3FEC-2DC0-3B44A320B15E">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>0AACBB37-0311-CF19-068A-BEAD4A9B7123</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres_wysyłki" id="C359B143-AF51-ACA5-4B43-4C160D6D61B7">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>231C703F-AB4F-E14D-23BD-1FD980FCE647</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C887764-6EDB-7D67-C78D-3C9C38A33CB8" name="Klient_PK">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 13:01:12 UTC</createdTime>
+<generatorID>DF13ED60-A5BE-FDC4-06F3-FCD19F1164FA</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAEE0FC2-056F-81B3-0CF5-74D27A036367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

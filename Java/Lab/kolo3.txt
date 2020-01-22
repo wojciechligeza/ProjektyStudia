@@ -1,0 +1,12 @@
+1. Proszê napisaæ program, który wype³nia 
+tablicê 10 wierszy razy 10 kolumn liczbami 
+przypadkowymi rzeczywistymi z zakresu 
+[3.5, 5.5]. Dodatkowo program powinien 
+obliczaæ i wyœwietlaæ na konsolê sumê 
+kwadratów liczb na przeciwstawnej 
+przek¹tnej tablicy.
+
+2. Proszê napisaæ program, który wypisuje na 
+konsoli przypadkowe s³owo zdania podanego 
+przez u¿ytkownika programu 
+w zmiennej s typu String

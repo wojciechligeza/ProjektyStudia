@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dostawca_Produkt" directorySegmentName="seg_0" id="91E9F90D-0896-AAB7-A71B-03CD9F60C0E4">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 12:59:06 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<sourcePk>B0232FF1-7212-39D1-EF68-F8B98D86A0B9</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>dostarcza</nameOnSource>
+<nameOnTarget>jest dostarczany</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DE75C2C-59F9-D62E-61FE-3CF2B59B7A30</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3AAAB94F-6F2C-A5DA-E768-87CF52BBA105</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

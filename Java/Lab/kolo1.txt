@@ -1,0 +1,16 @@
+1. Proszê napisaæ program, który wype³nia tablicê 
+kwadratow¹ 10 wierszy razy 10 kolumn 
+przypadkowymi liczbami ca³kowitymi 
+z zakresu [20,30]. 
+Dodatkowo program powinnien obliczaæ i wypisywaæ 
+na ekran pierwiastek (kwadratowy) sumy liczb 
+umieszczonych w pi¹tym wierszu tablicy.
+
+
+2. Proszê napisaæ program, który wypisuje 
+na ekran pierwsze s³owo rozpoczynaj¹ce siê na 
+literkê A wystêpuj¹ce w zdaniu podanym przez 
+u¿ytkownika w zmiennej s typu String, czyli
+String s = "     "
+
+

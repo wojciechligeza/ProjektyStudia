@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7EE21B9-5FF8-5CFF-8D0D-E01A311FE330" name="Zamowienia">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:15:27 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Zamowienia" id="AFE5CF22-364F-9350-1810-617475417520">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:15:55 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_zamówienia" id="83D514A2-2DB8-AD40-5EB1-52E9C31BDF52">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 12:55:42 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Klienta" id="5E34BBAE-44E0-75A5-00B9-4092D8D75A99">
+<createdBy>Student</createdBy>
+<createdTime>2019-03-28 12:24:43 UTC</createdTime>
+<generatorID>7410A213-7E82-680D-4C8D-9A2D86A4F008</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="true"/>
+</engineerTo>
+<referedAttribute>252115EA-47CA-953D-8DD7-3C0343DEC4A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4DFBC09-1BBA-7745-F039-3161E28C5C16" name="ID_Zamowienia_PK">
+<createdBy>Wojciech</createdBy>
+<createdTime>2019-03-21 10:16:50 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="83F9EBEC-035E-4BD1-FCC7-9B59756B79B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AFE5CF22-364F-9350-1810-617475417520</newElementsIDs>
+<usedAttributes>
+<attributeRef>AFE5CF22-364F-9350-1810-617475417520</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
